@@ -1,0 +1,56 @@
+<html>
+
+<head>
+
+    <title>Creative Coding</title>
+
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<div id="intro">
+		<div id="title">Musical Growth</div>
+		<div id="description">An interactive music biologic experience</div>
+		<div id="loading" class="flipper-info">
+			<div id="loading_1" class="front">
+				<div id="loading_1_text">LOADING</div>
+			</div>
+			<!--div id="loading_2" class="back">DRAG MUSIC<br>OR<br>LET'S PLAY</div-->
+			<div id="loading_2" class="back"><br>LET'S PLAY</div>
+		</div>
+		<div id="information">Move your mouse to turn around the tree.<br>Headphones recommended.</div>
+		<div id="authors">Thomas AZOUG - Maxime HELAINE - Alexandre RIVET - Arthur TORRENTE</div>
+	</div>
+	
+	<div id="main">
+		<div id="music-info"><span id="music-name"></span> - <span id="music-time"></span></div>
+		<!--<canvas id="canvas-sound-visualization"></canvas>-->
+		<div id="canvas"></div>
+	</div>
+	
+
+</body>
+
+<!-- Ajout des libs -->
+<script type="text/javascript" src="libs/three.min.js"></script>
+<script type="text/javascript" src="js/OrbitControls.js"></script>
+<script type="text/javascript" src="libs/dat.gui.min.js"></script>
+<script type="text/javascript" src="libs/jquery-2.2.0.min.js"></script>
+
+<!-- Ajout des scripts custom -->
+<script type="text/javascript" src="js/env.js"></script>
+<script type="text/javascript" src="js/models/treeRing.js"></script>
+<script type="text/javascript" src="js/models/treeFragment.js"></script>
+<script type="text/javascript" src="js/models/treeBranch.js"></script>
+<script type="text/javascript" src="js/models/tree.js"></script>
+<script type="text/javascript" src="js/controllers/resourceManager.js"></script>
+<script type="text/javascript" src="js/controllers/audioManager.js"></script>
+<script type="text/javascript" src="js/controllers/growthManager.js"></script>
+<script type="text/javascript" src="js/controllers/renderingManager.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!--<script type="text/javascript" src="js/mainMesh_debug.js"></script>-->
+
+</html>

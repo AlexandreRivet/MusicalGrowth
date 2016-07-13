@@ -1,0 +1,3 @@
+var lastTime = 0;
+var DELTATIME_SPLIT = 0;
+var TIME_BETWEEN_TWO_SPLIT = 15.0;
